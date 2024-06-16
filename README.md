@@ -90,7 +90,7 @@ The data.json file should contain the following structure:
 - ``lockin``: Coordinates for the lock-in button.
 
 > [!TIP]
-> I would love to see your views from you. Feel free to fill  [feedback](https://docs.google.com/forms/d/1i62PVIGzZ_DyPLJy0MhO7cbh-qoWMVvKhnhLfQlae1w) form
+> I would love to see your views. Feel free to fill  [feedback](https://docs.google.com/forms/d/1i62PVIGzZ_DyPLJy0MhO7cbh-qoWMVvKhnhLfQlae1w) form
 
 # Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any changes you'd like to make.
