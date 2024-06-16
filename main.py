@@ -3,8 +3,50 @@ import keyboard
 import pyautogui
 import json
 import time
+import os
 
 shortcut = 'alt+x'  # define your hot-key
+
+# template
+template = {
+    "current_account": "rizzitis",
+    "accounts": {
+        "rizzitis": {
+            "agents": {
+                "q": {
+                    "agent_name": "jett",
+                    "coords": [
+                        962,
+                        842
+                    ]
+                },
+                "w": {
+                    "agent_name": "raze",
+                    "coords": [
+                        1219,
+                        842
+                    ]
+                },
+                "e": {
+                    "agent_name": "reyna",
+                    "coords": [
+                        1290,
+                        842
+                    ]
+                }
+            }
+        }
+    },
+    "lockin": [
+        952,
+        728
+    ]
+}
+
+# check weather data.json exists
+if not os.path.isfile('data.json'):
+    with open("data.json", 'w') as f:
+        json.dump(template, f)
 
 # reading JSON file
 with open('data.json') as f:
